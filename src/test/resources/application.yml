@@ -1,0 +1,13 @@
+spring:
+  rsocket:
+    server:
+      port: 7001
+      mapping-path: /
+      transport: websocket
+
+logging:
+  level:
+    io:
+      rsocket:
+        FrameLogger: DEBUG
+    
